@@ -13,7 +13,7 @@
 <br><br>
 
 Компиляция:
-<br>
+<br><br>
 g++ -o kostikmakostik.exe kostikmakostik.cpp -lws2_32 -mwindows -DUNICODE -D_UNICODE
 <br>
 PAUSE
